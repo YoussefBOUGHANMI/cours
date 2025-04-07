@@ -4,7 +4,7 @@ from streamlit_navigation_bar import st_navbar
 from tp import *
 from accueil import *
 from orange import *
-
+from challenge import *
 
 
 def ft_navbar_user():
@@ -46,7 +46,7 @@ def ft_navbar_user():
     if (page == "TP1 💻"):
         tp_display()
     if (page == "Challenge 🏆"):
-        st.write("dev")
+        display_challenge()
     if (page == "Télecharger ODM ⬇️"):
         ft_orange()
 
