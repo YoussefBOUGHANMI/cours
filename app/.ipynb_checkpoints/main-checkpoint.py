@@ -5,11 +5,14 @@ from tp import *
 from accueil import *
 from orange import *
 from challenge import *
-
+from get_comment import *
+from display_llm import *
+from tp2 import *
+from conseil_llm import *
 
 def ft_navbar_user():
 
-    pages = ["Accueil 🏠" , "TP1 💻",  "Challenge 🏆" , "Télecharger ODM ⬇️"]
+    pages = ["Accueil 🏠" , "TP2 💻", "Comment Extractor 💬" , "LLM 🤖" , "Tips LLM ℹ️"]
     styles = {
         "nav": {
             "background-color": "#294889",
@@ -48,7 +51,15 @@ def ft_navbar_user():
     if (page == "Challenge 🏆"):
         display_challenge()
     if (page == "Télecharger ODM ⬇️"):
-        ft_orange()
+        ft_orange()   
+    if(page == "TP2 💻"):
+        tp2_page()
+    if( page == "Comment Extractor 💬"):
+        display_comment()
+    if(page == "LLM 🤖"):
+        display_llm()
+    if(page == "Tips LLM ℹ️"):
+        llm_conseils_page()
 
 
 ft_navbar_user()

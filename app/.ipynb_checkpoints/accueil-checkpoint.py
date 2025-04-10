@@ -3,50 +3,46 @@ import streamlit as st
 
 
 
-
+import streamlit as st
 
 def display_acc():
-
     # Titre principal
-    st.title("🎓 Bienvenue sur le site du cours : Maitrise logiciels de traitement de données")
-    
-    [st.write("\n") for i in range(5)]
+    st.title("🎓 Bienvenue sur le site du cours : NLP au service du Marketing")
+
+    [st.write("\n") for _ in range(4)]
 
     # Message d'accueil
     st.markdown("""
-    Bienvenue à toutes et à tous ! 👋  
-    Ce site vous accompagnera tout au long de notre cours sur le **Score d’Appétence**, un outil de data science au service du marketing.""")
-    
-    [st.write("\n") for i in range(4)]
+    Bonjour à toutes et à tous ! 👋  
+    Ce site vous accompagnera tout au long de notre cours sur le **Traitement Automatique du Langage Naturel (NLP)**, une technologie clé dans la transformation digitale du marketing.
+    """)
+
+    [st.write("\n") for _ in range(3)]
 
     st.write("""
-    > 🧠 L’objectif : comprendre comment prédire l’intérêt potentiel d’un client pour une offre, grâce à des données et des modèles statistiques.""")
-    
-    [st.write("\n") for i in range(4)]
-
-                
-    st.write("""           
-
-    🔍 Vous y trouverez des ressources, et des supports pour approfondir la démarche.
-
-    Bonne exploration !
+    > 🎯 **Objectif du cours :** Comprendre ce qu’est le NLP, ses applications marketing, et comment l’utiliser pour générer des insights, automatiser des tâches, et personnaliser les interactions client.
     """)
-    
+
+    [st.write("\n") for _ in range(3)]
+
+    st.write("""
+    📚 Sur ce site, vous trouverez des ressources complémentaires, des cas d’usage concrets, et bien sûr le support de cours en téléchargement.
+
+    Bonne découverte ! 🚀
+    """)
+
     st.markdown("---")
-    
-        # Téléchargement du PowerPoint
-    with open("Le-Score-dAppetence-Optimiser-vos-Strategies-Commerciales.pptx", "rb") as file:
+
+    # Téléchargement du PowerPoint
+    with open("Le-NLP-au-Service-du-Marketing.pptx", "rb") as file:
         st.download_button(
             label="📥 Télécharger le support de cours (PowerPoint)",
             data=file,
-            file_name="Score_Appetence_Cours.pptx",
+            file_name="NLP_Marketing_Cours.pptx",
             mime="application/vnd.openxmlformats-officedocument.presentationml.presentation"
         )
-    
-    
-    
-    
-    
+
     # Pied de page
     st.markdown("---")
-    st.caption("Ce site est réservé aux étudiants du cours. Merci de ne pas le diffuser sans autorisation.")
+    st.caption("Ce site est réservé aux étudiants du cours de M1 Marketing. Ne pas diffuser sans autorisation.")
+
