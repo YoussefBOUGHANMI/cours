@@ -69,7 +69,7 @@ def Challenge() :
     with col2:
 
 
-        with open("data_train.csv", "rb") as file_tp1:
+        with open("/mount/src/cours/app/data_train.csv", "rb") as file_tp1:
             st.download_button(
                 label="Télecharger les données historique",
                 data=file_tp1,
@@ -80,7 +80,7 @@ def Challenge() :
         
     # Encadré pour cette section
     with col3:
-        with open("data_test.csv", "rb") as file_tp1:
+        with open("/mount/src/cours/app/data_test.csv", "rb") as file_tp1:
             st.download_button(
                 label="Télecharger les données des clients à contacter",
                 data=file_tp1,
