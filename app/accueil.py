@@ -5,9 +5,9 @@ import streamlit as st
 
 import streamlit as st
 
-def display_acc():
+def Accueil():
     # Titre principal
-    st.title("🎓 Bienvenue sur le site du cours : NLP au service du Marketing")
+    st.title("🎓 Bienvenue sur le site du cours : Traitement de la données")
 
     [st.write("\n") for _ in range(4)]
 

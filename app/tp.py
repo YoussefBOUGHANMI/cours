@@ -3,7 +3,7 @@ import streamlit as st
 
 
 
-def tp_display():
+def TP():
 
 
 

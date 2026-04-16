@@ -44,7 +44,7 @@ def get_team_submission_count(leaderboard, team):
     return leaderboard[leaderboard["Team"] == team].shape[0]
 
 # --- INTERFACE ---
-def display_challenge() :
+def Challenge() :
     
     st.title("🏆 Challenge Machine Learning - GéniaLum")
 
