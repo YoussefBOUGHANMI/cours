@@ -34,7 +34,7 @@ def Accueil():
     st.markdown("---")
 
     # Téléchargement du PowerPoint
-    with open("/workspaces/cours/app/Le-NLP-au-Service-du-Marketing.pptx", "rb") as file:
+    with open("/mount/src/cours/app/Le-NLP-au-Service-du-Marketing.pptx", "rb") as file:
         st.download_button(
             label="📥 Télécharger le support de cours (PowerPoint)",
             data=file,
