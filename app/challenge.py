@@ -91,7 +91,7 @@ def Challenge() :
         
     with col1:
         
-        with open("🎯 Consignes du Challenge Machine Learning.docx", "rb") as file:
+        with open("/mount/src/cours/app/🎯 Consignes du Challenge Machine Learning.docx", "rb") as file:
             st.download_button(
             label="Télécharger les Consignes du Challenge",
             data=file,
