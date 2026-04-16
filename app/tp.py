@@ -125,7 +125,7 @@ def TP():
 
 
         # Fichier pour le TP1
-        with open("bank.csv", "rb") as file_tp1:
+        with open("/mount/src/cours/app/bank.csv", "rb") as file_tp1:
             st.download_button(
                 label="Télecharger le jeu de données",
                 data=file_tp1,
