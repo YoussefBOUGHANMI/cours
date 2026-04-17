@@ -7,7 +7,7 @@ from datetime import datetime
 COST_CONTACT = 800
 GAIN_PER_SALE = 5000
 MAX_SUBMISSIONS = 3
-TEAMS = ["Equipe 1", "Equipe 2" ,"FratésPleins" , "Equipe 4" , "Los Tiburòn de l'Apentencia" ]
+TEAMS = ["Equipe 1", "Equipe 2" ,"Equipe 3" , "Equipe 4" , "Equipe 5" ]
 PASSWORD = "admin13081996"  # 🔐 à modifier par toi-même
 
 TARGET_PATH = "/mount/src/cours/app/data_test_target.csv"
