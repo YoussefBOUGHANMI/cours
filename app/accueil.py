@@ -25,7 +25,7 @@ def Accueil():
     - Introduction aux scores d’appétence et aux cas d’usage marketing  
     - Préparation et exploration des données  
     - Modélisation (régression logistique, arbres, modèles de ML)  
-    - Évaluation des modèles (AUC, lift, ROC, etc.)  
+    - Évaluation des modèles   
     - Activation marketing et prise de décision basée sur les scores  
 
     📚 Sur ce site, vous trouverez des ressources complémentaires, des cas concrets, et le support de cours en téléchargement.
