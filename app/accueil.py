@@ -36,7 +36,7 @@ def Accueil():
     st.markdown("---")
 
     # Téléchargement du PowerPoint
-    with open("/mount/src/cours/app/Scores_Appetence_Marketing.pptx", "rb") as file:
+    with open("/mount/src/cours/app/Score_Appetence_Youssef_Boughanmi.pptx", "rb") as file:
         st.download_button(
             label="📥 Télécharger le support de cours (PowerPoint)",
             data=file,
