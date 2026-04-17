@@ -10,8 +10,8 @@ MAX_SUBMISSIONS = 3
 TEAMS = ["Equipe 1", "Equipe 2" ,"FratésPleins" , "Equipe 4" , "Los Tiburòn de l'Apentencia" ]
 PASSWORD = "admin13081996"  # 🔐 à modifier par toi-même
 
-TARGET_PATH = "data_test_target.csv"
-LEADERBOARD_PATH = "leaderboard.csv"
+TARGET_PATH = "/mount/src/cours/app/data_test_target.csv"
+LEADERBOARD_PATH = "/mount/src/cours/app/leaderboard.csv"
 
 # --- FONCTIONS ---
 def eval_strategy(submitted_ids, target_df):
