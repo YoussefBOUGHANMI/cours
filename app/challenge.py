@@ -6,7 +6,7 @@ from datetime import datetime
 # --- CONFIGURATION ---
 COST_CONTACT = 800
 GAIN_PER_SALE = 5000
-MAX_SUBMISSIONS = 3
+MAX_SUBMISSIONS = 10
 TEAMS = ["Equipe 1", "Equipe 2" ,"Equipe 3" , "Equipe 4" , "Equipe 5" ]
 PASSWORD = "admin13081996"  # 🔐 à modifier par toi-même
 
